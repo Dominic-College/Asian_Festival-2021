@@ -20,12 +20,13 @@ h1 {
 
 h2 {
 	color: #a2863d;
+	text-align: center;
 	}
 
 p {
-	text-align: left;
+	text-align: center;
 	color: white;
-	width: 500px;
+	
 }
 
 img {
@@ -35,60 +36,51 @@ img {
 
 .img1 {
 	float: right;
-	padding: 50px;
-	margin-bottom: 50px;
+	padding: 15px;
+	width: 500px;
+	padding-left: 30px;
 }
 
 .img2 {
-	float: left;
-	padding: 50px;
-	margin-bottom: 50px;
+	padding: 15px;
+	width: 500px;
+	padding-left: 30px;
+	flex: 50%;
+	
 	}
 
+
 .img3 {
-	float: right;
-	padding: 50px;
-	margin-bottom: 50px;
+	padding: 15px;
+	width: 500px;
+	padding-left: 30px;
+	flex: 50%;
+		
 }
 
-.img4 {
-	float: left;
-	padding: 50px;
-	margin-bottom: 50px;
-	margin-top: 200px;
-	width: 600px;
+.images {
+	display: flex;
+}
+
+
+
+.p1 {
+	padding-bottom: 20px;
 	
 }
 
 .p2 {
-	margin-left: 750px;
-	text-align: right;
-	width: 500px;
+	padding-bottom: 60px;
+	text-align: center;
 }
 
 .p3 {
-	text-align: left;
-	width: 500px;
-	
-}
-
-.h3 {
-	margin-top: 200px;
-}
-
-.h4 {
-	
-}
-
-.h2 {
-	
-	
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 
 .p4 {
-	margin-left: 750px;
-	text-align: right;
-	width: 500px;
+	padding-bottom: 20px;
 }
 
